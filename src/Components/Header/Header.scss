@@ -1,0 +1,50 @@
+@import '../../scss/index.scss';
+
+
+div.ui.menu{
+
+    padding: 0;
+    margin: 0 40px;
+    border-radius: 0;
+    background: transparent;
+    
+    
+    .item{
+        color: $danger-second-angel;
+        cursor: pointer;
+        
+   
+        img{
+            padding-right: 5px;
+            
+        }
+        div{
+            font-size: 30px;
+            letter-spacing: 4px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    }
+    div.item.icon-profile{
+    
+        i.user.icon{
+            
+            color: $font-grey;
+            cursor: pointer;
+
+            &:hover{
+                color: $danger-second-angel;
+            }
+     
+            
+        }
+        i.power.off.icon{
+            color: $font-grey;
+            margin-left: 10px;
+            &:hover{
+                color: $danger;
+            }
+        }
+    }
+    
+    
+}

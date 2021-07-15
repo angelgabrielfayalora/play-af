@@ -1,0 +1,34 @@
+@import '../../scss/index.scss';
+
+.basic-slider-item{
+
+    margin: 0 70px;
+
+    &__list{
+
+            margin: 10px;
+    
+    }
+    .avatar{
+        
+        height: 160px;
+        width: 100%;
+        margin: 0 50px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        object-fit: cover;
+        
+        
+        
+        
+    }
+    h2{
+        color: turquoise;
+    }
+    
+    
+    
+    
+    
+}

@@ -1,0 +1,117 @@
+@import '../../scss/index.scss';
+
+.confings{
+    margin: 50px 55px 0 55px; 
+    letter-spacing: 1px;
+    
+    
+    
+    h1{
+        color: $font-grey;
+        font-size: 40px;
+
+    }
+
+    &__list{
+        position: relative;
+        display: flex;
+        
+        
+        
+    }
+    .profile-avatar{
+
+            display: table;
+            margin: 0 !important;
+            border: 2px solid #9a9a9a;
+            border-style: dashed;
+            border-radius: 100px;
+            padding: 10px;
+            margin-bottom: 20px;
+        
+        img{
+            width: 150px;
+            border-radius: 50px;
+            //margin-left: 50px;
+
+        }
+    }
+    .profile-username{
+        //display: flex;
+        width: 100%;
+        margin-top: 40px;
+        
+        
+        h2{
+            color: $font-grey;
+            margin-left: 15px;
+            display: inline;
+            font-size: 30px;
+
+        }
+        .ui.button{
+            float: right;
+            //display: flex;
+            position: relative;
+        }
+    }
+    
+    &__list-block{
+        position: relative;
+        
+        margin-top: 50px;
+        
+
+
+        .profile-email{
+            width: 100%;
+
+            h2{
+                color: $font-grey;
+                display: inline;
+                font-size: 30px;
+
+            }
+            .ui.button{
+                float: right;
+                position: relative;
+            }
+        }
+        .profile-password{
+            width: 100%;
+            margin-top: 50px;
+
+            h2{
+                color: $font-grey;
+                display: inline;
+                font-size: 30px;
+            }
+            .ui.button{
+                float: right;
+                position: relative;
+            }
+        }
+        .profile-admin-banner{
+            width: 100%;
+            margin-top: 100px;
+            
+            h1{
+                color: lightcoral;
+                align-items: center;
+                margin-left: 250px;
+                margin-bottom: 50px;
+                
+            }
+            h2{
+                color: $font-grey;
+                font-size: 40px;
+                display: inline;
+            }
+            .ui.button{
+                float: right;
+                position: relative;
+            }
+        }
+
+    }
+}

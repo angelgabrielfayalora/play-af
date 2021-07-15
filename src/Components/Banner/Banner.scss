@@ -1,0 +1,14 @@
+@import '../../scss/index.scss';
+
+.player-wrapper{
+    position: relative;
+    height: 600px;
+    width: 100px;
+    
+}
+.react-player{
+    position: absolute;
+    background-size: cover;
+    object-fit: cover;
+    
+}
